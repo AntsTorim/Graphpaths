@@ -8,6 +8,7 @@ Created on Mon Feb 10 14:45:35 2020
 import numpy as np
 
 G = np.identity(1005)
+# Teisenda seosepaarid failist lähedusmaatriksiks (identity, et oleks refleksiivne)
 # https://snap.stanford.edu/data/email-Eu-core.html
 with open("email-Eu-core.txt") as f:
     for r in f:
